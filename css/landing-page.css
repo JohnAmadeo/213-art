@@ -1,21 +1,24 @@
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /* font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+  /* font-family: 'Dosis', sans-serif; */
+  font-family: 'Montserrat Alternates', sans-serif;
 }
 
+/* p,
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 700;
-}
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 400;
+} */
 
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background: url("../img/background.jpg") no-repeat top center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -31,7 +34,7 @@ header.masthead .overlay {
   width: 100%;
   top: 0;
   left: 0;
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 header.masthead h1 {
@@ -64,8 +67,8 @@ header.masthead h1 {
 }
 
 .features-icons {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .features-icons .features-icons-item {
@@ -85,8 +88,8 @@ header.masthead h1 {
 }
 
 .testimonials {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .testimonials .testimonial-item {
@@ -100,7 +103,7 @@ header.masthead h1 {
 
 .call-to-action {
   position: relative;
-  background-color: #343a40;
+  background-color: #6c63ff;
   background: url("../img/bg-masthead.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -120,7 +123,47 @@ header.masthead h1 {
   opacity: 0.3;
 }
 
+.slogan {
+    font-size: 68px;
+}
+
+.slogan-subtext {
+    font-size: 28px;
+}
+
+svg {
+    width: 150px;
+    height: 150px;
+}
+
+.company-name {
+    color: #6c63ff;
+}
+
+.sign-up-btn {
+    background-color: #6c63ff;
+    padding: 14px 28px;
+    font-size: 18px;
+    border: none;
+}
+
+.sign-up-btn:hover {
+    background-color: #4c45d3;
+    border: none;
+}
+
+.sign-up-btn a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer a {
+    text-decoration: underline;
+    color: #ffffff;
+}
 footer.footer {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+    background-color: #6c63ff;
+    color: #ffffff;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
